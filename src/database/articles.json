@@ -1,0 +1,12 @@
+{
+  "1": {
+    "author": "Author 1",
+    "title": "TITLE 1",
+    "content": "Content, conteúdo, contenido"
+  },
+  "2": {
+    "author": "Author 2",
+    "title": "TITLE 2",
+    "content": "Workshop de ReactJS"
+  }
+}

@@ -1,0 +1,16 @@
+.container {
+  background: aquamarine;
+  border-radius: 10px;
+  border: 2px solid rgb(72, 107, 223);
+
+  padding: 1vh 3vw;
+}
+
+.title {
+  text-align: center;
+}
+
+.author {
+  font-style: italic;
+  text-align: end;
+}

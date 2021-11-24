@@ -1,0 +1,59 @@
+html,
+#root,
+body {
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background-color: beige;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: row;
+}
+
+.new_article {
+  width: 30%;
+  height: fit-content;
+}
+.new_article > h2 {
+  text-align: center;
+}
+
+.articles {
+  width: 70%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.article {
+  width: 50%;
+  margin-top: 3vh;
+}
+
+.article:first-child {
+  margin-top: 0;
+}
