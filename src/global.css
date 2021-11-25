@@ -27,12 +27,13 @@ h6 {
   display: flex;
 
   justify-content: center;
+  align-items: center;
 
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .new_article {
-  width: 30%;
+  width: 100%;
   height: fit-content;
 }
 .new_article > h2 {
@@ -40,7 +41,7 @@ h6 {
 }
 
 .articles {
-  width: 70%;
+  width: 100%;
 
   display: flex;
   justify-content: center;
